@@ -35,7 +35,7 @@ smd(
 ➮Oᴡɴᴇʀ - ${Config.ownername} 
 ➮Nᴜᴍ - ${owner.split(",")[0]} 
 ➮Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
-      \n *PLATINUM-V1 SIMPLE WHATSAPP BOT*\n\n ${readmore} 
+      \n *QUEEN_KYLIE-V2 SIMPLE WHATSAPP BOT*\n\n ${readmore} 
 ╭──❰ *ALL MENU* ❱ 
 │💞 Lɪꜱᴛ 
 │💞 Cᴀᴛᴇɢᴏʀʏ 
@@ -186,20 +186,20 @@ astro_patch.cmd(
 smd(
   {
     pattern: "ping",
-    react: "❄️",
+    react: "⚡",
     desc: "Ping response with speed.",
     category: "misc",
     filename: __filename,
   },
   async (message) => {
     var startTime = new Date().getTime();
-    const { key } = await message.reply("ąҍօѵҽ ąӀӀ ☠️👑");
+    const { key } = await message.reply("QUEEN_KYLIE-V2 👸❤️🧸⚡");
 
     // Wait briefly for effect
     await new Promise((r) => setTimeout(r, 1500));
 
     var speed = new Date().getTime() - startTime;
-    await message.send(`Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍: ${speed} ms ⚡`, { edit: key });
+    await message.send(`QUEEN_KYLIE-V2 👸❤️🧸: ${speed} ms ⚡`, { edit: key });
   }
 );
 astro_patch.cmd(
