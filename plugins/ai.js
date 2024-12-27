@@ -27,7 +27,7 @@ smd(
       }
 
       // Send a loading message
-      await m.send("Chill your request is being processed •°•° 🤔");
+      await m.send("Kylie is thinking, hold on 👸❤️🧸•°•° 🤔");
 
       // Define the API URL
       const apiUrl = `https://www.dark-yasiya-api.site/ai/chatgpt?q=${encodeURIComponent(query)}`;
@@ -70,7 +70,7 @@ smd(
       }
 
       // Send a loading message
-      await m.send("Chill your request is being processed •°•° 🤔");
+      await m.send("Kylie is thinking, hold on 👸❤️🧸•°•° 🤔");
 
       // Define the API URL
       const apiUrl = `https://api.giftedtech.my.id/api/search/bing?apikey=gifted&query=${encodeURIComponent(query)}`;
